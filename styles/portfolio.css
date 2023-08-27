@@ -88,6 +88,10 @@ width: 500px;
 
 }
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about{
@@ -95,4 +99,11 @@ padding:130px;
 border-radius: 10px;
 background: #FFF8F3;
 margin: 130px o ;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
